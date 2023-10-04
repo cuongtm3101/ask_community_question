@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  display: flex;
+  background: #1c1c1c;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.main-content {
+  max-width: 1140px;
+  margin: 50px auto;
+}
+.question-content {
+  text-align: center;
+}
+
+.vote {
+  text-align: center;
+  padding: 50px 0 10px;
+}
+.rate-bar {
+  width: 100%;
+  display: flex;
+}
+.rate-bar div {
+  text-align: center;
+  color: #fff;
+  padding: 4px 0;
+}
+.dislike {
+  width: 40%;
+  background: rgb(255, 58, 58);
+}
+.like {
+  width: 60%;
+  background: rgb(49, 49, 253);
+}
+button {
+  border: none;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  background: green;
+}
+.btn {
+  text-align: center;
+  padding-top: 50px;
+}

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  display: flex;
+  background: #1c1c1c;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  padding-left: 10px;
+}
+.main-content {
+  max-width: 1140px;
+  margin: 50px auto;
+}
+.question-content {
+  text-align: center;
+}
+button {
+  border: none;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 4px;
+}
+#like {
+  background: rgb(49, 49, 253);
+}
+#dislike {
+  background: rgb(255, 58, 58);
+}
+.btn-group {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  margin-top: 100px;
+}
+button:hover {
+  cursor: pointer;
+}
